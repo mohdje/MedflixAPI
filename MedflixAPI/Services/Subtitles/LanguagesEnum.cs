@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Subtitles
+namespace MedflixAPI.Services.Subtitles
 {
     public enum SubtitlesLanguage
     {

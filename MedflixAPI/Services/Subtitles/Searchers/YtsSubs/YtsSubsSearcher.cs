@@ -1,10 +1,10 @@
-﻿using MoviesAPI.Helpers;
-using MoviesAPI.Services.Subtitles.Searchers;
+﻿using MedflixAPI.Helpers;
+using MedflixAPI.Services.Subtitles.Searchers;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Subtitles
+namespace MedflixAPI.Services.Subtitles
 {
     internal class YtsSubsSearcher : ISubtitlesMovieSearcher
     {

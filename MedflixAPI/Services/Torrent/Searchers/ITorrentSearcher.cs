@@ -1,8 +1,8 @@
-﻿using MoviesAPI.Services.Torrent.Dtos;
+﻿using MedflixAPI.Services.Torrent.Dtos;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal interface ITorrentSearcher
     {

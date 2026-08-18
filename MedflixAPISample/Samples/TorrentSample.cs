@@ -1,20 +1,20 @@
-﻿using MoviesAPI.Services;
-using MoviesAPI.Services.Torrent;
-using MoviesAPI.Services.Torrent.Dtos;
+﻿using MedflixAPI.Services;
+using MedflixAPI.Services.Torrent;
+using MedflixAPI.Services.Torrent.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviesApiSample.Samples
+namespace MedflixAPISample.Samples
 {
     internal class TorrentSample
     {
         TorrentSearchManager torrentSearchManager;
         public TorrentSample()
         {
-            torrentSearchManager = MoviesAPIFactory.CreateTorrentSearchManager();
+            torrentSearchManager = MedflixAPIFactory.CreateTorrentSearchManager();
         }
 
         public async Task Test()

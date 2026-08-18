@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Subtitles.Searchers
+namespace MedflixAPI.Services.Subtitles.Searchers
 {
     internal interface ISubtitlesSerieSearcher
     {

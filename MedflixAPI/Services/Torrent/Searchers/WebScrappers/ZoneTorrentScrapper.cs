@@ -1,7 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System.Linq;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal class ZoneTorrentScrapper : TorrentWebScrapper
     {

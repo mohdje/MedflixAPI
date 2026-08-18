@@ -1,6 +1,6 @@
 ﻿
 
-namespace MoviesAPI.Services.Tmdb.Dtos
+namespace MedflixAPI.Services.Tmdb.Dtos
 {
     internal class TmdbExternalIdDto
     {

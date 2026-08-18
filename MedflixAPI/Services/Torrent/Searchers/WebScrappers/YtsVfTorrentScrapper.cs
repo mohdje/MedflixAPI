@@ -1,7 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System.Linq;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal class YtsVfTorrentScrapper : TorrentWebScrapper
     {
@@ -37,7 +37,7 @@ namespace MoviesAPI.Services.Torrent
             var seedersNode = specsNode.FirstOrDefault(node => node.InnerText.Contains(textIdentifier));
             if (seedersNode != null && int.TryParse(seedersNode?.InnerText.Replace(textIdentifier, string.Empty).Trim(), out var nbSeeders))
                 return nbSeeders > 0;
-            else 
+            else
                 return false;
         }
     }

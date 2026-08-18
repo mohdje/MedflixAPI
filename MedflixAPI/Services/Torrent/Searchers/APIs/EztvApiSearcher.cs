@@ -1,6 +1,6 @@
-﻿using MoviesAPI.Extensions;
-using MoviesAPI.Helpers;
-using MoviesAPI.Services.Torrent.Dtos;
+﻿using MedflixAPI.Extensions;
+using MedflixAPI.Helpers;
+using MedflixAPI.Services.Torrent.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal class EztvApiSearcher : ITorrentSearcher
     {
@@ -42,9 +42,9 @@ namespace MoviesAPI.Services.Torrent
 
                 keepSearching = !torrents.Any();
             }
-           
-            return torrents.Select(t => new MediaTorrent() 
-            { 
+
+            return torrents.Select(t => new MediaTorrent()
+            {
                 DownloadUrl = !string.IsNullOrEmpty(t.TorrentUrl) ? t.TorrentUrl : t.MagnetUrl,
                 Quality = t.Title.GetVideoQuality()
             });

@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using HtmlAgilityPack;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal class GkTorrentScrapper : TorrentWebScrapper
     {

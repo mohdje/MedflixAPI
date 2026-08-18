@@ -1,17 +1,17 @@
-﻿using MoviesAPI.Services;
-using MoviesAPI.Services.Subtitles;
+﻿using MedflixAPI.Services;
+using MedflixAPI.Services.Subtitles;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MoviesApiSample.Samples
+namespace MedflixAPISample.Samples
 {
     internal class SubtitlesSample
     {
         SubtitlesSearchManager subtitlesSearchManager;
         public SubtitlesSample()
         {
-            subtitlesSearchManager = MoviesAPIFactory.CreateSubstitlesSearchManager(AppContext.BaseDirectory);
+            subtitlesSearchManager = MedflixAPIFactory.CreateSubstitlesSearchManager(AppContext.BaseDirectory);
         }
 
         public async Task Test()

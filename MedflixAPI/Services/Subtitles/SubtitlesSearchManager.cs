@@ -1,9 +1,9 @@
-﻿using MoviesAPI.Services.Subtitles.Searchers;
+﻿using MedflixAPI.Services.Subtitles.Searchers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Subtitles
+namespace MedflixAPI.Services.Subtitles
 {
     public class SubtitlesSearchManager
     {

@@ -1,9 +1,9 @@
-﻿using MoviesAPI.Services.Torrent.Dtos;
+﻿using MedflixAPI.Services.Torrent.Dtos;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     public class TorrentSearchManager
     {
@@ -13,7 +13,7 @@ namespace MoviesAPI.Services.Torrent
         private readonly IEnumerable<ITorrentSearcher> vfTorrentSerieSearchers;
         private readonly IEnumerable<ITorrentSearcher> voTorrentSeriesSearchers;
         internal TorrentSearchManager(
-            IEnumerable<ITorrentSearcher> vfTorrentMovieSearchers, 
+            IEnumerable<ITorrentSearcher> vfTorrentMovieSearchers,
             IEnumerable<ITorrentSearcher> voTorrentMovieSearchers,
             IEnumerable<ITorrentSearcher> vfTorrentSerieSearchers,
             IEnumerable<ITorrentSearcher> voTorrentSeriesSearchers)

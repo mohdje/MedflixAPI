@@ -1,4 +1,4 @@
-﻿using MoviesAPI.Helpers;
+﻿using MedflixAPI.Helpers;
 using System;
 using System.Collections.Generic;
 using System.IO.Compression;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
-namespace MoviesAPI.Services.Subtitles
+namespace MedflixAPI.Services.Subtitles
 {
     internal class SubtitlesDownloader
     {

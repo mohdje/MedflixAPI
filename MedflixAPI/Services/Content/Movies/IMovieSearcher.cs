@@ -1,12 +1,12 @@
-﻿using MoviesAPI.Services.Content.Dtos;
-using MoviesAPI.Services.Tmdb.Dtos;
+﻿using MedflixAPI.Services.Content.Dtos;
+using MedflixAPI.Services.Tmdb.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Content
+namespace MedflixAPI.Services.Content
 {
     public interface IMovieSearcher
     {

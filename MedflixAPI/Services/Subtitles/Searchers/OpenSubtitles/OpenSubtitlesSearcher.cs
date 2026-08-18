@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
-using MoviesAPI.Services.Subtitles.OpenSubtitlesHtml.DTOs;
-using MoviesAPI.Helpers;
-using MoviesAPI.Services.Subtitles.Searchers;
+using MedflixAPI.Services.Subtitles.OpenSubtitlesHtml.DTOs;
+using MedflixAPI.Helpers;
+using MedflixAPI.Services.Subtitles.Searchers;
 using System.Text.Json;
 
-namespace MoviesAPI.Services.Subtitles
+namespace MedflixAPI.Services.Subtitles
 {
     public class OpenSubtitlesSearcher : ISubtitlesMovieSearcher, ISubtitlesSerieSearcher
     {

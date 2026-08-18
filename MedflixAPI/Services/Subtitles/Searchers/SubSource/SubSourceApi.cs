@@ -1,12 +1,12 @@
-﻿using MoviesAPI.Helpers;
-using MoviesAPI.Services.Subtitles.Searchers.SubSource.DTOs;
+﻿using MedflixAPI.Helpers;
+using MedflixAPI.Services.Subtitles.Searchers.SubSource.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Subtitles.Searchers
+namespace MedflixAPI.Services.Subtitles.Searchers
 {
     internal class SubSourceApi : ISubtitlesMovieSearcher, ISubtitlesSerieSearcher
     {

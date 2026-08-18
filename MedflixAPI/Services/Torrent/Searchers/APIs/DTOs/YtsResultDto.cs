@@ -1,5 +1,5 @@
 ﻿
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     class YtsResultDto
     {

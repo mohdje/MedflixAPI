@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal class EztvResultDto
     {

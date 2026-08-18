@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Tmdb.Dtos
+namespace MedflixAPI.Services.Tmdb.Dtos
 {
     internal class TmdbVideos
     {
-       public TmdbVideo[] Results { get; set; }
+        public TmdbVideo[] Results { get; set; }
     }
     internal class TmdbVideo
     {

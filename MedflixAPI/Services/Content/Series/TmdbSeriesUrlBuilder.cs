@@ -1,4 +1,4 @@
-﻿namespace MoviesAPI.Services.Tmdb
+﻿namespace MedflixAPI.Services.Tmdb
 {
     internal class TmdbSeriesUrlBuilder : TmdbUrlBuilder
     {

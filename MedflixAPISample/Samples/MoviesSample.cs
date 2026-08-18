@@ -1,20 +1,20 @@
-﻿using MoviesAPI.Services;
-using MoviesAPI.Services.Content;
-using MoviesAPI.Services.Content.Dtos;
+﻿using MedflixAPI.Services;
+using MedflixAPI.Services.Content;
+using MedflixAPI.Services.Content.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviesApiSample.Samples
+namespace MedflixAPISample.Samples
 {
     internal class MoviesSample
     {
         IMovieSearcher movieSearcher;
         public MoviesSample(string apiKey)
         {
-            movieSearcher = MoviesAPIFactory.CreateMovieSearcher(apiKey);
+            movieSearcher = MedflixAPIFactory.CreateMovieSearcher(apiKey);
         }
 
         public async Task Test()

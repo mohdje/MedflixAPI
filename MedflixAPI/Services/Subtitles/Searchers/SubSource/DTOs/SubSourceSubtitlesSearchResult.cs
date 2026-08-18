@@ -1,4 +1,4 @@
-﻿namespace MoviesAPI.Services.Subtitles.Searchers.SubSource.DTOs
+﻿namespace MedflixAPI.Services.Subtitles.Searchers.SubSource.DTOs
 {
     internal class SubSourceSubtitlesSearchResult
     {

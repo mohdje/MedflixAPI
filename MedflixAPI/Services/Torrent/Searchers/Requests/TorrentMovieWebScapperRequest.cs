@@ -1,6 +1,6 @@
-﻿using MoviesAPI.Extensions;
+﻿using MedflixAPI.Extensions;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal class TorrentMovieWebScapperRequest : TorrentWebScapperRequest
     {

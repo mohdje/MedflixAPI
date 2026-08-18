@@ -1,14 +1,14 @@
 ﻿using HtmlAgilityPack;
-using MoviesAPI.Extensions;
-using MoviesAPI.Helpers;
-using MoviesAPI.Services.Torrent.Dtos;
+using MedflixAPI.Extensions;
+using MedflixAPI.Helpers;
+using MedflixAPI.Services.Torrent.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal abstract class TorrentWebScrapper : ITorrentSearcher
     {

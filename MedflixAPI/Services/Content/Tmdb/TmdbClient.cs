@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MoviesAPI.Helpers;
-using MoviesAPI.Services.Content.Dtos;
-using MoviesAPI.Services.Tmdb.Dtos;
+using MedflixAPI.Helpers;
+using MedflixAPI.Services.Content.Dtos;
+using MedflixAPI.Services.Tmdb.Dtos;
 
-namespace MoviesAPI.Services.Tmdb
+namespace MedflixAPI.Services.Tmdb
 {
     internal abstract class TmdbClient
     {

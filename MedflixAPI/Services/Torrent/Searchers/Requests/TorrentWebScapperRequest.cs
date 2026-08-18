@@ -1,4 +1,4 @@
-﻿namespace MoviesAPI.Services.Torrent
+﻿namespace MedflixAPI.Services.Torrent
 {
     internal abstract class TorrentWebScapperRequest
     {

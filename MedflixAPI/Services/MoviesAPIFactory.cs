@@ -1,14 +1,14 @@
-﻿using MoviesAPI.Services.Subtitles;
-using MoviesAPI.Services.Torrent;
+﻿using MedflixAPI.Services.Subtitles;
+using MedflixAPI.Services.Torrent;
 using System;
 using System.Collections.Generic;
-using MoviesAPI.Services.Content;
-using MoviesAPI.Services.Torrent.Searchers.WebScrappers;
+using MedflixAPI.Services.Content;
+using MedflixAPI.Services.Torrent.Searchers.WebScrappers;
 using System.IO;
 
-namespace MoviesAPI.Services
+namespace MedflixAPI.Services
 {
-    public static class MoviesAPIFactory
+    public static class MedflixAPIFactory
     {
 
         public static IMovieSearcher CreateMovieSearcher(string apiKey)

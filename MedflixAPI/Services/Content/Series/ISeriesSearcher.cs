@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using MoviesAPI.Services.Content.Dtos;
+using MedflixAPI.Services.Content.Dtos;
 
-namespace MoviesAPI.Services.Content
+namespace MedflixAPI.Services.Content
 {
     public interface ISeriesSearcher
     {

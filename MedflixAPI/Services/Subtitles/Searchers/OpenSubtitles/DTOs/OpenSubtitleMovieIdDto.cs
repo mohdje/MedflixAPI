@@ -1,4 +1,4 @@
-﻿namespace MoviesAPI.Services.Subtitles.OpenSubtitlesHtml.DTOs
+﻿namespace MedflixAPI.Services.Subtitles.OpenSubtitlesHtml.DTOs
 {
     public class OpenSubtitleDto
     {

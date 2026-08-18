@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace MoviesAPI.Services.Tmdb
+namespace MedflixAPI.Services.Tmdb
 {
     internal abstract class TmdbUrlBuilder
     {

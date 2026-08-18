@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace MoviesAPI.Services.Tmdb.Dtos
+namespace MedflixAPI.Services.Tmdb.Dtos
 {
     public class TmdbTranslations
     {

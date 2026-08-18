@@ -4,7 +4,7 @@
 using HtmlAgilityPack;
 using System.Linq;
 
-namespace MoviesAPI.Services.Torrent.Searchers.WebScrappers
+namespace MedflixAPI.Services.Torrent.Searchers.WebScrappers
 {
     internal class YtsRsWebScrapper : TorrentWebScrapper
     {

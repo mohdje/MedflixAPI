@@ -1,9 +1,9 @@
-﻿using MoviesAPI.Extensions;
-using MoviesAPI.Services.Content.Dtos;
+﻿using MedflixAPI.Extensions;
+using MedflixAPI.Services.Content.Dtos;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace MoviesAPI.Services.Tmdb.Dtos
+namespace MedflixAPI.Services.Tmdb.Dtos
 {
     internal class TmdbSearchResults
     {

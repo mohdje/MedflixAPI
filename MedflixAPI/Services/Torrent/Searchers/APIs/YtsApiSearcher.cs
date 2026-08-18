@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Threading.Tasks;
 using System.Linq;
-using MoviesAPI.Helpers;
-using MoviesAPI.Services.Torrent.Dtos;
-using MoviesAPI.Extensions;
+using MedflixAPI.Helpers;
+using MedflixAPI.Services.Torrent.Dtos;
+using MedflixAPI.Extensions;
 
-namespace MoviesAPI.Services.Torrent
+namespace MedflixAPI.Services.Torrent
 {
     internal class YtsApiSearcher : ITorrentSearcher
     {

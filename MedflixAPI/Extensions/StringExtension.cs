@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Web;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace MoviesAPI.Extensions
+namespace MedflixAPI.Extensions
 {
     internal static class StringExtension
     {

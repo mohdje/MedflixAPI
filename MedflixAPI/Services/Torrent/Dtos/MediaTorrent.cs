@@ -1,5 +1,5 @@
-﻿namespace MoviesAPI.Services.Torrent.Dtos
-{ 
+﻿namespace MedflixAPI.Services.Torrent.Dtos
+{
     public class MediaTorrent
     {
         public string DownloadUrl { get; set; }
