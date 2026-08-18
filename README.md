@@ -52,8 +52,8 @@ Install-Package MedflixAPI
 using MedflixAPI.Services;
 
 // Initialize searchers
-var movieSearcher = MoviesAPIFactory.Instance.CreateMovieSearcher(apiKey);
-var seriesSearcher = MoviesAPIFactory.Instance.CreateSeriesSearcher(apiKey);
+var movieSearcher = MedflixAPIFactory.Instance.CreateMovieSearcher(apiKey);
+var seriesSearcher = MedflixAPIFactory.Instance.CreateSeriesSearcher(apiKey);
 
 // Search for movies
 var movies = await movieSearcher.SearchMoviesAsync("Encanto");
@@ -70,8 +70,8 @@ foreach (var movie in movies)
 Initialize the searchers with your TMDB API key:
 
 ```csharp
-var movieSearcher = MoviesAPIFactory.Instance.CreateMovieSearcher(apiKey);
-var seriesSearcher = MoviesAPIFactory.Instance.CreateSeriesSearcher(apiKey);
+var movieSearcher = MedflixAPIFactory.Instance.CreateMovieSearcher(apiKey);
+var seriesSearcher = MedflixAPIFactory.Instance.CreateSeriesSearcher(apiKey);
 ```
 
 **Search by Title**
@@ -122,7 +122,7 @@ Search for and download subtitles in multiple languages:
 ```csharp
 // Initialize the subtitles search manager
 var downloadFolder = "/path/to/subtitles";
-var subtitlesSearchManager = MoviesAPIFactory.Instance.CreateSubstitlesSearchManager(downloadFolder);
+var subtitlesSearchManager = MedflixAPIFactory.Instance.CreateSubstitlesSearchManager(downloadFolder);
 
 // Get movie details
 var movies = await movieSearcher.SearchMoviesAsync("Encanto");
@@ -152,7 +152,7 @@ Search for torrent sources for movies and TV series:
 
 ```csharp
 // Initialize the torrent search manager
-var torrentSearchManager = MoviesAPIFactory.Instance.CreateTorrentSearchManager();
+var torrentSearchManager = MedflixAPIFactory.Instance.CreateTorrentSearchManager();
 
 // Search for movie torrents (Original Version)
 var torrentsVo = await torrentSearchManager.SearchVoTorrentsMovieAsync("The Wild Robot", 2024);
