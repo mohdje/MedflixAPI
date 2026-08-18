@@ -4,7 +4,7 @@
     <!-- NuGet Package Configuration -->
     <IsPackable>true</IsPackable>
     <PackageId>MedflixAPI</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>mohdje</Authors>
     <Description>A .NET class library to search for movies, series, subtitles, and torrents.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
